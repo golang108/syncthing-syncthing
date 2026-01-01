@@ -183,7 +183,7 @@ jobs:
 
       - uses: mlugg/setup-zig@v2
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
@@ -292,7 +292,7 @@ jobs:
 
       - uses: mlugg/setup-zig@v2
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
@@ -354,7 +354,7 @@ jobs:
           go-version: ${{ needs.facts.outputs.go-version }}
           cache: false
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
@@ -482,7 +482,7 @@ jobs:
           go-version: ${{ needs.facts.outputs.go-version }}
           cache: false
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
@@ -687,7 +687,7 @@ jobs:
 
       - uses: mlugg/setup-zig@v2
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
@@ -972,7 +972,7 @@ jobs:
 
       - uses: mlugg/setup-zig@v2
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
